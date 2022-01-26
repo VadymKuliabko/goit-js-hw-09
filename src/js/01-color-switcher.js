@@ -1,3 +1,7 @@
+const startBtn = document.querySelector('button[data-start]');
+const stopBtn = document.querySelector('button[data-stop]');
+const selectBodyColor = document.querySelector('body');
+
 const refs = {
   bodyColor: document.querySelector('body'),
   startBtn: document.querySelector('button[data-start]'),
